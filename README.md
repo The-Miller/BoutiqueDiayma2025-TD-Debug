@@ -22,3 +22,6 @@
 # Le SDK .NET (8.0.416) ainsi que les runtimes .NET Core 2.1 ont été installés et vérifiés via les commandes dotnet --list-sdks et dotnet --list-runtimes, ce qui permet désormais de compiler et d’exécuter le projet Diayma dans Visual Studio 2026.
 
 # Question 5 – Créez votre propre dépôt GitHub pour y stocker le code
+# le dépot Github a été créé et le code stocké, accessible à l’adresse suivante : https://github.com/The-Miller/BoutiqueDiayma2025-TD-Debug
+
+# Question 6 – 
