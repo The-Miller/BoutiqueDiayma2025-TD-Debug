@@ -118,3 +118,12 @@
 # --------------------------------------------------------------------------------------------------------------------------
 
 # Question 9 - Déployez votre solution sous forme d’exécutable Windows.
+# La solution a été publiée sous forme d’exécutable Windows à l’aide de l’assistant de publication de Visual Studio :
+# 1. Dans l’Explorateur de solutions, le projet `Diayma` a été sélectionné puis la commande **Publier…** a été utilisée.
+# 2. Un profil de publication de type **Dossier** a été créé, avec comme cible un répertoire local `C:\Publish\Diayma`.
+# 3. Dans les paramètres de publication, le mode de déploiement a été configuré en **Self-contained** avec le runtime cible **`win-x64`**, afin de générer un exécutable Windows autonome.
+# 4. Après publication, Visual Studio a généré un fichier `Diayma.exe` dans le dossier de sortie. L’exécution de cet exécutable lance le serveur Kestrel et permet d’accéder à l’application via une URL locale (`http://localhost:5000`) dans le navigateur.
+
+# Question 10 - Fournir un lien drive Google, Onedrive etc. à l’exécutable ci-dessus.
+# Voici le lien drive : https://drive.google.com/file/d/1I88RR4lqGiLiUcfTFaTTBtXou3kv5inK/view?usp=drive_link
+
