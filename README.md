@@ -1,35 +1,120 @@
+ï»¿# Boubacar NIANG
+# Master 2 - GLSI
+
 # Boutique Diayma
 
-# Question 1 – Récupérer et exécuter le code dans Visual Studio 
-# j’ai récupéré et exécuté l’application fournie dans le sujet via clonage depuis Github avec le lien fourni.
-# Une fois l’opération terminée, Visual Studio a ouvert automatiquement la solution associée.
-# Exécution de l’application en mode Débogage, l’application a pu être compilée avec succès.
-# Le navigateur s’est ouvert automatiquement sur l’URL locale de l’application (http://localhost:60000/), ce qui confirme que le lancement de l’application est réussi.
-# Conformément au sujet, la fenêtre d’avertissements  affichée au démarrage a été simplement fermée, sans interrompre l’exécution de l’application.
+# Question 1 â€“ RÃ©cupÃ©rer et exÃ©cuter le code dans Visual Studio 
+# jâ€™ai rÃ©cupÃ©rÃ© et exÃ©cutÃ© lâ€™application fournie dans le sujet via clonage depuis Github avec le lien fourni.
+# Une fois lâ€™opÃ©ration terminÃ©e, Visual Studio a ouvert automatiquement la solution associÃ©e.
+# ExÃ©cution de lâ€™application en mode DÃ©bogage, lâ€™application a pu Ãªtre compilÃ©e avec succÃ¨s.
+# Le navigateur sâ€™est ouvert automatiquement sur lâ€™URL locale de lâ€™application (http://localhost:60000/), ce qui confirme que le lancement de lâ€™application est rÃ©ussi.
+# ConformÃ©ment au sujet, la fenÃªtre dâ€™avertissements  affichÃ©e au dÃ©marrage a Ã©tÃ© simplement fermÃ©e, sans interrompre lâ€™exÃ©cution de lâ€™application.
 
-# Question 2 – Quels sont les projets de la solution ?
+# Question 2 â€“ Quels sont les projets de la solution ?
 # La solution Visual Studio fournie contient un unique projet : Diayma, une application Web ASP.NET Core MVC.
 
-# Question 3 – Quelle est la version du SDK .NET utilisée ?
-# Pour déterminer la version du SDK .NET utilisée, j’ai vérifié l’environnement .NET installé sur la machine à l’aide de la commande : dotnet --list-sdks
-# Cette commande affiche les SDK disponibles, en l’occurrence j'ai :
+# Question 3 â€“ Quelle est la version du SDK .NET utilisÃ©e ?
+# Pour dÃ©terminer la version du SDK .NET utilisÃ©e, jâ€™ai vÃ©rifiÃ© lâ€™environnement .NET installÃ© sur la machine Ã  lâ€™aide de la commande : dotnet --list-sdks
+# Cette commande affiche les SDK disponibles, en lâ€™occurrence j'ai :
 # .NET SDK 8.0.416
 # .NET SDK 10.0.100
-# Le projet Diayma a été analysé via son fichier Diayma.csproj, dans lequel le framework ciblé est :
+# Le projet Diayma a Ã©tÃ© analysÃ© via son fichier Diayma.csproj, dans lequel le framework ciblÃ© est :
 # <TargetFramework>netcoreapp2.1</TargetFramework>
-# Ainsi, même si le projet cible le framework .NET Core 2.1, la compilation est réalisée à l’aide des SDK récents (versions 8 et 10) installés sur la machine.
+# Ainsi, mÃªme si le projet cible le framework .NET Core 2.1, la compilation est rÃ©alisÃ©e Ã  lâ€™aide des SDK rÃ©cents (versions 8 et 10) installÃ©s sur la machine.
 
-# Question 4 – Installez le SDK
-# Le SDK .NET (8.0.416) ainsi que les runtimes .NET Core 2.1 ont été installés et vérifiés via les commandes dotnet --list-sdks et dotnet --list-runtimes, ce qui permet désormais de compiler et d’exécuter le projet Diayma dans Visual Studio 2026.
+# Question 4 â€“ Installez le SDK
+# Le SDK .NET (8.0.416) ainsi que les runtimes .NET Core 2.1 ont Ã©tÃ© installÃ©s et vÃ©rifiÃ©s via les commandes dotnet --list-sdks et dotnet --list-runtimes, ce qui permet dÃ©sormais de compiler et dâ€™exÃ©cuter le projet Diayma dans Visual Studio 2026.
 
-# Question 5 – Créez votre propre dépôt GitHub pour y stocker le code
-# le dépot Github a été créé et le code stocké, accessible à l’adresse suivante : https://github.com/The-Miller/BoutiqueDiayma2025-TD-Debug
+# Question 5 â€“ CrÃ©ez votre propre dÃ©pÃ´t GitHub pour y stocker le code
+# le dÃ©pot Github a Ã©tÃ© crÃ©Ã© et le code stockÃ©, accessible Ã  lâ€™adresse suivante : https://github.com/The-Miller/BoutiqueDiayma2025-TD-Debug
 
-# Question 6 – Explorez l’application. Signalez 2 bugs trouvés ?
-# Bug 1 : Problème de sélection de la langue espagnole
-# L’application propose un menu de sélection de langue avec trois choix : Anglais, Français et Espagnol. Lorsque l’utilisateur sélectionne Anglais ou Français, l’interface s’affiche correctement dans la langue choisie. En revanche, lorsque l’utilisateur sélectionne Espagnol, l’interface bascule en français.
+# Question 6 â€“ Explorez lâ€™application. Signalez 2 bugs trouvÃ©s ?
+# Bug 1 : ProblÃ¨me de sÃ©lection de la langue espagnole
+# Lâ€™application propose un menu de sÃ©lection de langue avec trois choix : Anglais, FranÃ§ais et Espagnol. Lorsque lâ€™utilisateur sÃ©lectionne Anglais ou FranÃ§ais, lâ€™interface sâ€™affiche correctement dans la langue choisie. En revanche, lorsque lâ€™utilisateur sÃ©lectionne Espagnol, lâ€™interface bascule en franÃ§ais.
 # Bug 2 : Erreur dans le calcul du total du panier
-# Lorsqu’on ajoute plusieurs articles au panier, dont un article par exemple article2, le calcul de la somme totale du panier est incorrect. Le prix de article2 n’est pris en compte qu’une seule fois, même si plusieurs exemplaires de cet article sont ajoutés.
+# Lorsquâ€™on ajoute plusieurs articles au panier, dont un article par exemple article2, le calcul de la somme totale du panier est incorrect. Le prix de article2 nâ€™est pris en compte quâ€™une seule fois, mÃªme si plusieurs exemplaires de cet article sont ajoutÃ©s.
 
-# Question 7 - Placez un point d’arrêt sur les lignes suivantes du code : a)CartSummaryViewComponent ligne 12 / b)ProductController ligne 15 / c)OrderController ligne 17 / d)CartController ligne 15 / e)Startup ligne 20
-# Au niveau des lignes demandés, on a mis les points d’arrêt en faisant F9 sur chaque ligne concernée dans Visual Studio.
+# Question 7 - Placez un point dâ€™arrÃªt sur les lignes suivantes du code : a)CartSummaryViewComponent ligne 12 / b)ProductController ligne 15 / c)OrderController ligne 17 / d)CartController ligne 15 / e)Startup ligne 20
+# Au niveau des lignes demandÃ©s, on a mis les points dâ€™arrÃªt en faisant F9 sur chaque ligne concernÃ©e dans Visual Studio.
+
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# Question 8 - Quels sont les namespaces, classes et mÃ©thodes visitÃ©s avant lâ€™affichage des produits sur lâ€™Ã©cran dâ€™accueil de votre navigateur ? Choisissez le mode appropriÃ© selon le contexte, "Pas Ã  pas dÃ©taillÃ©", "Pas Ã  pas principal" ou "Pas Ã  pas sortant". Vos rÃ©ponses doivent Ãªtre dÃ©taillÃ©es dans le fichier README du dÃ©pÃ´t.
+# Lors du lancement de lâ€™application en mode DÃ©bogage et de la navigation vers la page dâ€™accueil affichant la liste des produits, lâ€™exÃ©cution passe par plusieurs composants du framework et de lâ€™application.
+
+# Ci-dessous, le chemin observÃ© est dÃ©taillÃ© avec, pour chaque Ã©tape, le namespace, la classe, la mÃ©thode et le mode de pas Ã  pas utilisÃ©.
+
+# ============================================
+# 1. DÃ‰MARRAGE DE Lâ€™APPLICATION
+# ============================================
+
+# Namespace : P2FixAnAppDotNetCode
+# Classe : Startup
+# MÃ©thode : Startup(IConfiguration configuration)
+# Le runtime instancie Startup et initialise la configuration.
+# Mode utilisÃ© : Pas Ã  pas principal
+
+# Namespace : P2FixAnAppDotNetCode
+# Classe : Startup
+# MÃ©thode : ConfigureServices(IServiceCollection services)
+# Enregistrement des services
+# Mode utilisÃ© : Pas Ã  pas principal
+
+# Namespace : P2FixAnAppDotNetCode
+# Classe : Startup
+# MÃ©thode : Configure(IApplicationBuilder app, IHostingEnvironment env)
+# Mise en place du pipeline HTTP
+# Mode utilisÃ© : Pas Ã  pas principal
+
+# ============================================
+# 2. ROUTAGE & APPEL DU CONTRÃ”LEUR
+# ============================================
+
+# Route par dÃ©faut â†’ ProductController.Index()
+
+# Namespace : P2FixAnAppDotNetCode.Controllers
+# Classe : ProductController
+# MÃ©thode : ProductController(IProductService, ILanguageService)
+# Injection
+# Mode utilisÃ© : Pas Ã  pas dÃ©taillÃ©
+
+# Namespace : P2FixAnAppDotNetCode.Controllers
+# Classe : ProductController
+# MÃ©thode : Index()
+# Mode : Pas Ã  pas dÃ©taillÃ©
+
+# ============================================
+# 3. COUCHE SERVICE & ACCÃˆS DONNÃ‰ES
+# ============================================
+
+# Namespace : P2FixAnAppDotNetCode.Models.Services
+# Classe : ProductService
+# MÃ©thode : GetAllProducts()
+# encapsulation mÃ©tier + appels au repository.
+# Mode : Pas Ã  pas dÃ©taillÃ©
+
+# Namespace : P2FixAnAppDotNetCode.Models.Repositories
+# Classe : ProductRepository
+# MÃ©thode : GetAllProducts()
+# retourne la liste des produits depuis la source de donnÃ©es.
+# Mode : Pas Ã  pas principal
+# Retour vers ProductController.Index()
+# Mode : Pas Ã  pas sortant
+
+# ============================================
+# 4. RENDU DE LA VUE
+# ============================================
+
+# Namespace : P2FixAnAppDotNetCode.Components
+# Classe : CartSummaryViewComponent
+# MÃ©thode : Invoke()
+# affichage du rÃ©sumÃ© du panier.
+# Mode : Pas Ã  pas principal
+
+# Ce chemin couvre les couches : dÃ©marrage, contrÃ´leur, service, repository, vue.
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------
+
+# Question 9 - DÃ©ployez votre solution sous forme dâ€™exÃ©cutable Windows.
