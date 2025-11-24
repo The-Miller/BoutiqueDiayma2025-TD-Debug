@@ -49,6 +49,7 @@ namespace P2FixAnAppDotNetCode
                     new CultureInfo("en"),
                     new CultureInfo("fr-FR"),
                     new CultureInfo("fr"),
+                    new CultureInfo("wo-SN"),   // Wolof langue ajoutéé
                 };
 
                 opts.DefaultRequestCulture = new RequestCulture("en");
