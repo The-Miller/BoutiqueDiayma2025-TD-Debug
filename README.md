@@ -1,4 +1,5 @@
 # Boutique Diayma
+
 # Question 1 – Récupérer et exécuter le code dans Visual Studio 
 # j’ai récupéré et exécuté l’application fournie dans le sujet via clonage depuis Github avec le lien fourni.
 # Une fois l’opération terminée, Visual Studio a ouvert automatiquement la solution associée.
@@ -24,4 +25,11 @@
 # Question 5 – Créez votre propre dépôt GitHub pour y stocker le code
 # le dépot Github a été créé et le code stocké, accessible à l’adresse suivante : https://github.com/The-Miller/BoutiqueDiayma2025-TD-Debug
 
-# Question 6 – 
+# Question 6 – Explorez l’application. Signalez 2 bugs trouvés ?
+# Bug 1 : Problème de sélection de la langue espagnole
+# L’application propose un menu de sélection de langue avec trois choix : Anglais, Français et Espagnol. Lorsque l’utilisateur sélectionne Anglais ou Français, l’interface s’affiche correctement dans la langue choisie. En revanche, lorsque l’utilisateur sélectionne Espagnol, l’interface bascule en français.
+# Bug 2 : Erreur dans le calcul du total du panier
+# Lorsqu’on ajoute plusieurs articles au panier, dont un article par exemple article2, le calcul de la somme totale du panier est incorrect. Le prix de article2 n’est pris en compte qu’une seule fois, même si plusieurs exemplaires de cet article sont ajoutés.
+
+# Question 7 - Placez un point d’arrêt sur les lignes suivantes du code : a)CartSummaryViewComponent ligne 12 / b)ProductController ligne 15 / c)OrderController ligne 17 / d)CartController ligne 15 / e)Startup ligne 20
+# Au niveau des lignes demandés, on a mis les points d’arrêt en faisant F9 sur chaque ligne concernée dans Visual Studio.
