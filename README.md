@@ -7,7 +7,7 @@
 # j’ai récupéré et exécuté l’application fournie dans le sujet via clonage depuis Github avec le lien fourni.
 # Une fois l’opération terminée, Visual Studio a ouvert automatiquement la solution associée.
 # Exécution de l’application en mode Débogage, l’application a pu être compilée avec succès.
-# Le navigateur s’est ouvert automatiquement sur l’URL locale de l’application (http://localhost:5000/), ce qui confirme que le lancement de l’application est réussi.
+# Le navigateur s’est ouvert automatiquement sur l’URL locale de l’application (http://localhost:60000/), ce qui confirme que le lancement de l’application est réussi.
 # Conformément au sujet, la fenêtre d’avertissements  affichée au démarrage a été simplement fermée, sans interrompre l’exécution de l’application.
 
 # Question 2 – Quels sont les projets de la solution ?
