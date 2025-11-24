@@ -133,4 +133,4 @@
 # La culture `wo-SN` a été ajoutée à la liste `supportedCultures` dans `Startup.ConfigureServices`, en conservant les options de culture existantes pour le français (`fr-FR`, `fr`).
 # Le menu de sélection de langue de l’interface a été complété avec une entrée supplémentaire permettant de choisir la langue Wolof=
 # les commits ont été réalisé
-# Lien vers le dépôt GitHub : htps://github.com/The-Miller/Bou􀆟queDiayma2025-TD-Debug
+# Lien vers le dépôt GitHub : https://github.com/The-Miller/BoutiqueDiayma2025-TD-Debug
