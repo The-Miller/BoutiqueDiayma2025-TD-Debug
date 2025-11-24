@@ -128,3 +128,9 @@
 # Voici le lien drive : https://drive.google.com/file/d/1I88RR4lqGiLiUcfTFaTTBtXou3kv5inK/view?usp=drive_link
 
 # Question 11 - Optionnel
+# Ajout d’une langue d’affichage (Wolof)
+# Une nouvelle langue d’affichage, le Wolof, a été ajoutée à l’application :
+# La culture `wo-SN` a été ajoutée à la liste `supportedCultures` dans `Startup.ConfigureServices`, en conservant les options de culture existantes pour le français (`fr-FR`, `fr`).
+# Le menu de sélection de langue de l’interface a été complété avec une entrée supplémentaire permettant de choisir la langue Wolof=
+# les commits ont été réalisé
+# Lien vers le dépôt GitHub : htps://github.com/The-Miller/Bou􀆟queDiayma2025-TD-Debug
